@@ -1,0 +1,126 @@
+\documentclass{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\declaretheoremstyle[name=Theorem,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Proposition,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange}
+
+\declaretheoremstyle[name=Principle,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightGreen}
+
+\setstretch{1.2}
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=12pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% Cover Page and ToC
+% ------------------------------------------------------------------------------
+
+\title{ \normalsize \textsc{}
+		\\ [2.0cm]
+		\HRule{1.5pt} \\
+		\LARGE \textbf{\uppercase{Journal 4}
+		\HRule{2.0pt} \\ [0.6cm] \LARGE{} \vspace*{10\baselineskip}}
+		}
+\date{}
+\author{\textbf{Mahsa Rahimian} \\ 
+University of Colorado/ Colorado Springs\\
+		09/22/2023}
+
+\maketitle
+\newpage
+
+
+
+% ------------------------------------------------------------------------------
+
+\section{Explain your process and your refined survey topic/Find a very well cited related survey  and apply the analysis to that}
+My refined survey topic is integrating Integrating Path-Aware Risk Scores for Access Control (PARSAC) with Software-Defined Networking (SDN). the process for reaching out to this topic is researching and analyzing the two topics separately which means I did a broad research for the software defined networking(SDN) and Path-Aware Risk Scores for Access Control (PARSAC). I present my understanding from both topics to my advisor and then he told me now it is the time to figure out the relationship between these two topics and analyze ways that these two topics can fill out each other gaps. 
+The survey paper that I would like to apply the analysis to that is PARSAC: Path-Aware Risk Scores for Access Control in Zero-Trust Architectures \cite{seaton2022poster}. 
+Character: In the context of the scientific paper, the characters primarily consist of various components within the described network architecture. These characters include network nodes, entities, and security mechanisms.
+
+Character Traits (That Make Characters Interesting): The paper focuses on the technical aspects of network security and access control.
+
+Goal: The primary goal of the paper is to introduce and explain the concept of PARSAC (Path-Aware Risk Scores for Access Control) and its application in enhancing access control within zero-trust architectures.
+
+Motive: The motive behind this research is to address the challenges associated with implementing secure access control in zero-trust architectures, particularly in untrusted network environments.
+
+Conflicts and Problems: The main problem addressed in the paper is the need for improved access control mechanisms within zero-trust architectures. The paper discusses challenges related to user authentication, credential security, and the potential for unauthorized access.
+
+Risk and Danger: The paper highlights the risks and dangers associated with compromised credentials and the potential for unauthorized access to network resources. It emphasizes the importance of assessing and mitigating these risks through the use of path-aware risk scores.
+
+Struggles: The struggles within the paper revolve around the technical complexities of designing and implementing an effective path-aware access control system within a zero-trust architecture. The authors must develop and evaluate the PARSAC system to address these challenges.
+
+Details: The paper provides detailed technical information about PARSAC, the network model, and the mathematical formulations used to calculate risk scores. It also includes references and citations to related work, enhancing the depth of information.
+
+\newpage
+\section{4 categories based on character "trait"}
+The first chracter "trait" group that I would like to create for this assignment is "Robust and comprehensive". this trait Indicates that the research methods and results are strong and resilient, with consistent outcomes under varying conditions.the first paper that is in this group is \cite{xia2014survey}. It provides a comprehensive overview of SDN, covering its definition, architecture, implementation, and research challenges.It appears to be well-researched, as it references existing research efforts and the de facto SDN implementation (OpenFlow).also, It provides a comprehensive overview of SDN, covering its definition, architecture, implementation, and research challenges.the second paper that falls into this group is \cite{farhady2015software}. It offers a comprehensive survey of SDN, covering not only the control plane but also the often-overlooked data plane, making it a valuable resource for researchers. the third one is \cite{zhang2018survey}. It offers a comprehensive overview of the topic, covering multiple aspects of SDN with multiple controllers, including design principles, architectures, placement, scheduling, and future research directions.the other one is \cite{cox2017advancing} which is It offers a comprehensive overview of the topic, covering multiple aspects of SDN with multiple controllers, including benefits, challenges, design principles, architectures, placement, scheduling, and future research directions.the last paoer that falls into this group is \cite{cox2017advancing}. It offers a comprehensive overview of the topic, covering multiple aspects of SDN with multiple controllers, including benefits, challenges, design principles, architectures, placement, scheduling, and future research directions.
+the second group is Rigorous. It describes research that follows a strict and systematic methodology to ensure accuracy and validity.
+the first paper that I add to this group is \cite{karakus2017quality} . 
+Rigorous is an appropriate character trait for this paper as it demonstrates a meticulous and thorough examination of the subject matter. The text rigorously explores the challenges associated with achieving Quality of Service (QoS) in traditional networking and the limitations of existing QoS solutions. It also rigorously delves into the concept of Software Defined Networking (SDN) and its potential to address these challenges, providing a detailed explanation of SDN's architecture and advantages. the other paper is \cite{nunes2014survey}. It explores a wide range of current and potential future SDN applications, showcasing a deep understanding of the practical implications of this paradigm. the other paper in this group is \cite{jammal2014software}. 
+The character trait of rigorous is applicable to this paper due to its detailed and systematic exploration of the subject matter. The text rigorously examines the challenges faced by network administrators in a rapidly evolving network environment. It discusses the limitations of legacy networks, including issues related to IP addresses, physical infrastructure, and data-flow efficiency. the fourth paper is \cite{ndiaye2017software}. The character trait of rigorous is evident throughout this paper as it systematically explores the subject matter related to Software Defined Networking (SDN) in the context of Wireless Sensor Networks (WSNs).
+the third group that I would like to establish for these survey is Innovative which ch this trait highlights the novelty and originality of the research approach or findings.
+the first paper that falls in this group is \cite{bera2017software}.  
+The character trait of innovative is clearly evident in this paper as it explores the intersection of two cutting-edge technologies: the Internet of Things (IoT) and Software-Defined Networking (SDN), while also addressing the challenges and opportunities that arise in this innovative space. the second paper is \cite{rawat2016software}. The character trait of innovative is prominently displayed in this text as it discusses the innovative paradigm of Software-Defined Networking (SDN) and its various applications, including security and energy efficiency.
+the third paper is \cite{horvath2015literature}. 
+The character trait of innovative is evident in this paper as it discusses how Software-Defined Networking (SDN) can address challenges and bring about changes in network technologies and their impact on cloud computing.
+the other paper is \cite{xie2018survey}. The character trait of innovative is clearly demonstrated in this text as it discusses the integration of machine learning techniques with Software-Defined Networking (SDN) to enhance the intelligence and efficiency of networking systems.the last paper that falls in this group is \cite{akhunzada2016secure}. The character trait of innovative is vividly portrayed in this paper as it discusses the security implications and challenges within Software Defined Networks (SDNs). Here's how the paper exemplifies this trait: Recognizing the Revolutionary Nature of SDNs: The text starts by acknowledging the revolutionary concept of SDNs and highlights the key features that make SDNs stand out. It recognizes the potential of SDNs in terms of centralized management, separation of control and data planes, and network programmability, setting the stage for innovative improvements. Highlighting Security Concerns: It doesn't shy away from the fact that security was not initially considered in the design of SDNs, which is an honest acknowledgment of a potential vulnerability. By bringing this issue to the forefront, the paper demonstrates an innovative approach to identifying and addressing security challenges. Identifying New Threat Vectors: The text discusses how SDNs introduce new external and internal threats due to their logical centralization of network intelligence. This recognition of evolving threat vectors showcases an innovative mindset in understanding the changing landscape of network security.
+The last group that I would like to add to this assignment is Interdisciplinary which suggests that the research integrates knowledge and methods from multiple fields or disciplines.
+The first paper in this group is \cite{kaljic2019survey}. The paper exhibits the character trait of interdisciplinary by delving into the realm of software-defined networking (SDN) architecture and the challenges associated with the data plane, which requires insights from various fields. Here's how it embodies this trait:
+Acknowledgment of SDN's Multi-Faceted Nature: The text recognizes that SDN architecture consists of three planes - application, control, and data planes. This acknowledgment immediately points to the interdisciplinary nature of the subject, involving both networking and software/application domains. Data Plane Evaluation: It conducts an in-depth evaluation of data plane architectures, emphasizing programmability and flexibility. This evaluation involves understanding not just the network aspects but also the software and hardware components that constitute the data plane. This interdisciplinary approach ensures a holistic analysis.
+Analysis of Research Trends: The text reviews existing SDN-related research, focusing on the evolution of data plane architectures. This analysis likely draws from a diverse range of sources, including computer science, networking, and possibly even hardware engineering. It demonstrates a need for interdisciplinary thinking to understand the trajectory of SDN research.
+the second paper is \cite{rout2021energy}. The paper exemplifies the character trait of interdisciplinary thinking through its exploration of software-defined networking (SDN) and its impact on various aspects of the networking industry. the third paper is \cite{benzekki2016software}.  The paper showcases the character trait of interdisciplinary thinking by addressing the intersection of cloud computing, software-defined networking (SDN), and various networking challenges. the other paper that falls in this group is \cite{singh2017survey}. The paper exemplifies the character trait of interdisciplinary thinking by addressing the intersection of software-defined networking (SDN), network architecture, and the evolving demands of global internet traffic. the last paper that falls here is \cite{hakiri2014software}. 
+The paper exhibits the character trait of interdisciplinary thinking by acknowledging the complex challenges posed by the evolution of networking and proposing solutions through the integration of various disciplines.
+% Maybe I need to add one more part: Examples.
+
+% Set style and colour later.
+
+
+
+
+\newpage
+
+% ------------------------------------------------------------------------------
+% Reference and Cited Works
+% ------------------------------------------------------------------------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{References.bib}
+
+% ------------------------------------------------------------------------------
+
+\end{document}
